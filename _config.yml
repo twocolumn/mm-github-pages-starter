@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Writeonly.pl
+title: WriteOnly.pl
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Blog o programowaniu w językach Scala/JVM, Scala.js i Scala Native oraz
@@ -25,7 +25,7 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: twocolumn/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 1 # amount of posts to show
@@ -57,8 +57,8 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
+  name   : "Kamil Adam Zabiński"
+  avatar : "/assets/images/kamil-adam.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
